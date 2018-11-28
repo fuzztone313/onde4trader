@@ -1,0 +1,333 @@
+header.main-head
+    position: relative
+nav.navbar.navbar-expand-lg.navbar-light.bg-dark 
+    background-color: transparent !important
+    position: absolute
+    z-index: 1
+    width: 100%
+    padding: 0
+ul.navbar-nav.navbar-sel-log 
+    background-color: rgba(211, 211, 211, 0.5)
+    padding: 5px
+li.nav-item.nav-sel-log:not(:last-child) 
+    border-right: 1px solid lightgray
+select.form-control.select-lang
+    background-color: transparent
+    border-color: transparent
+    border-radius: 0
+    color: #fff
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+option.opt-lang
+    color: #000
+    background-color: #fff
+a.nav-link.nav-regist 
+    font-size: 17px
+    color: #fff !important
+    padding-bottom: 2px
+    margin-right: 15px
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+.navbar-toggler.navprimary
+    border: 1px solid green
+.navbar-light .navbar-toggler-icon.green-toogle 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,128,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+div.container-fluid.title-container
+    display: block
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    margin-left: auto
+    margin-right: auto
+    @media (max-width: 650px)
+        display: none
+.container-fluid.content-mobile 
+    background-color: #181917
+    display: none
+    @media (max-width: 650px)
+        display: block
+.row-wraper 
+    position: relative
+    height: 100%
+.row.justify-content-start.row-title
+    position: relative
+    top: 25%
+    margin-left: 25px
+.row.justify-content-end.row-sos
+    position: absolute
+    width: 100%
+    bottom: 75px
+div.top-title-box
+    position: relative
+div.title-wraper
+    position: relative
+div.img-title-wrap 
+    width: 80px
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    margin-left: auto
+    margin-right: auto
+hr.hr-title 
+    border-top: 1px solid green
+    margin-bottom: 10px
+    margin-top: 10px
+h1.head-title 
+    color: #fff
+    font-family: californian fb
+    font-weight: 400
+    font-size: 30px
+    text-align: center
+    margin-top: 10px
+    margin-bottom: 10px
+    padding-top: 35px
+p.title-desc 
+    color: #fff
+    font-weight: 400
+    font-size: 18px
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    margin-bottom: 0px
+    text-align: justify
+.btn-join 
+    text-align: center
+    margin: 10px auto
+.hr-wrap 
+    padding-top: 45px
+button.btn.btn-join-bg 
+    background-color: transparent
+    border: 1px solid #fff
+    border-radius: 0
+    width: 130px
+    margin-top: 20px
+    color: #fff
+    transition: 300ms
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    &:hover
+        background-color: #fff
+        color: #000
+        transition: 300ms
+.sos-ico-box-fb 
+    width: 40px
+    height: 40px
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 60px
+    border: 2px solid white
+    background-color: transparent
+    transition: 300ms
+    &:hover
+        background-color: #3c5a9a
+        transition: 300ms
+.sos-ico-box-tw 
+    width: 40px
+    height: 40px
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 60px
+    border: 2px solid white
+    background-color: transparent
+    transition: 300ms
+    &:hover
+        background-color: #11c1ff
+        transition: 300ms
+.sos-ico-box-pin 
+    width: 40px
+    height: 40px
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 60px
+    border: 2px solid white
+    background-color: transparent
+    transition: 300ms
+    &:hover
+        background-color: #c91416
+        transition: 300ms
+.sos-ico-box-yt
+    width: 40px
+    height: 40px
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 60px
+    border: 2px solid white
+    background-color: transparent
+    transition: 300ms
+    &:hover
+        background-color: #ed1b24
+        transition: 300ms
+.sos-ico-box-sky 
+    width: 40px
+    height: 40px
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 60px
+    border: 2px solid white
+    background-color: transparent
+    transition: 300ms
+    &:hover
+        background-color: #00aff0
+        transition: 300ms
+.sos-ico-wrap 
+    display: flex
+    justify-content: space-around
+.app-box 
+    display: flex
+    justify-content: space-between
+nav.navbar.navbar-expand-lg.navbar-light.bg-black 
+    background-color: #000 !important
+a.nav-link.sec-nav
+    color: #fff !important
+    font-size: 18px
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+a.sos-ico-item
+    color: #fff
+    font-size: 20px
+    &:hover
+        color: #fff
+.dropdown-toggle.green-toggle::after 
+    color: green !important
+.window-popup
+    width: 100%
+    height: 100%
+    position: fixed
+    z-index: 10
+    background: rgba(0,0,0,0.7)
+    top: 0
+    left: 0
+    overflow-y: auto
+    display: none
+.wp-content
+    width: 60%
+    height: auto
+    padding: 15px
+    background: #fff
+    position: absolute
+    left: 20%
+    top: 10%
+    margin-bottom: 40px
+.modal-btn
+    background: #fff
+    color: #79c739
+    border-color: #79c739
+    width: 100%
+    font-size: 15px
+    font-weight: 200
+    border-radius: 20px
+    &:hover
+        background: #79c739
+        color: #fff
+        border-color: #79c739
+.col-sm-6.sign-bg
+    background: url(../img/sign-bg.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+.sign-logo 
+    width: 100px
+    margin: 15px auto
+    background: #fff
+    padding: 15px
+    border-radius: 60px
+h1.sign-title 
+    font-weight: 400
+    color: #fff
+    height: 190px
+    display: flex
+    justify-content: center
+    align-items: center
+p.sign-caption 
+    color: #fff
+    text-align: center
+    font-size: 25px
+.nav-pills .nav-link.nav-modal 
+    color: #5a5a5a
+    background-color: #fff
+    font-size: 20px
+.nav-pills .nav-link.nav-modal.active 
+    color: #7bc73c
+    background-color: #fff
+    font-size: 24px
+.forgot-form 
+    +display(flex)
+    +justify-content(space-around)
+    margin-bottom: 10px
+.forgot-text
+    color: #79c739
+    font-weight: 600
+    &:hover
+        color: #a72d2d
+.sign-flex 
+    display: flex
+    justify-content: space-around
+.sign-pop-post.text-center 
+    margin-top: 35px
+.option-login 
+    text-align: center
+    margin-top: 10px
+    margin-bottom: 5px
+.sign-btn-box 
+    width: 45px
+    height: 45px
+button.fb-btn 
+    width: 100%
+    height: 100%
+    color: #3b5a9a
+    background: #fff
+    border-color: #3b5a9a
+    display: flex
+    align-items: center
+    justify-content: center
+    border-radius: 60px
+    &:hover
+        background: #3b5a9a
+        color: #fff
+button.goo-btn 
+    background: #fff
+    border-color: #dd4b3e
+    color: #dd4b3e
+    width: 100%
+    height: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 60px
+    &:hover
+        background: #dd4b3e
+        color: #fff
+i.fb-btn 
+    width: 100%
+    height: 100%
+    color: #3b5a9a
+    background: #fff
+    border-color: #3b5a9a
+    display: flex
+    align-items: center
+    justify-content: center
+    border-radius: 60px
+    &:hover
+        background: #3b5a9a
+        color: #fff
+i.goo-btn 
+    background: #fff
+    border-color: #dd4b3e
+    color: #dd4b3e
+    width: 100%
+    height: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 60px
+    &:hover
+        background: #dd4b3e
+        color: #fff
+span.close-btn
+    float: right
+    font-size: 50px
+    height: 5px
+    cursor: pointer
+    position: relative
+    top: -15px

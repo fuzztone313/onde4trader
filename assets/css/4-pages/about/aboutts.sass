@@ -1,0 +1,165 @@
+.jumbotron.jumbo-aboutts
+    background: url(../img/aboutts-header.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    min-height: 588px
+    margin-bottom: 0
+section.about-head
+    background: url(../img/about-bg.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+.about-date
+    text-align: center
+    color: #fff
+    background-color: rgba(0, 0, 0, .5)
+    padding: 10px
+    border-radius: 30px
+    width: 70%
+    margin: 30px 0
+.about-ts-box
+    background-color: #191919
+    padding: 50px
+    color: #fff
+    margin-bottom: 60px
+section.about-carousel
+    background-color: #0a0a0a
+.ab-car-box
+    display: flex
+    flex-wrap: wrap
+    width: 100%
+    border: 1px solid #79c739
+.ab-profile-box
+    width: 50%
+    padding: 10px
+    @media (max-width: 450px)
+        width: 100%
+.ab-name
+    font-family: Berlin Sans FB
+    color: #fff
+    font-size: 18px
+    font-weight: 400
+.ab-post
+    font-family: californian fb
+    color: #fff
+    font-size: 16px
+hr.hr-ab
+    border-top: 1px solid #79c739
+    margin: 10px auto
+ul.ul-ab-car
+    display: flex
+    list-style: none
+    justify-content: space-around
+    padding: 0
+li.li-ab-car
+    width: 30px
+    height: 30px
+    border: 1px solid #fff
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 60px
+a.ab-link
+    color: #fff
+    font-size: 20px
+.ab-desc
+    color: #fff
+.ab-avatar
+    width: 50%
+    @media (max-width: 450px)
+        width: 100%
+.ab-car-wrap
+    margin-bottom: 60px
+.about-title
+    margin-top: 60px
+    margin-bottom: 60px
+section.about-timeline
+    background-color: #101010
+.timeline-container 
+    width: 80%
+    padding: 50px 0
+    margin: 50px auto
+    position: relative
+    overflow: hidden
+.timeline-container:before 
+    content: ''
+    position: absolute
+    top: 0
+    left: 50%
+    margin-left: -1px
+    width: 2px
+    height: 100%
+    background: #79c739
+    z-index: 1
+.timeline-block 
+    width: -webkit-calc(50% + 8px)
+    width: -moz-calc(50% + 8px)
+    width: calc(50% + 8px)
+    display: -webkit-box
+    display: -webkit-flex
+    display: -moz-box
+    display: flex
+    -webkit-box-pack: justify
+    -webkit-justify-content: space-between
+    -moz-box-pack: justify
+    justify-content: space-between
+    clear: both
+.timeline-block-right 
+    float: right
+
+.timeline-block-left 
+    float: left
+    direction: rtl
+
+.marker 
+    width: 16px
+    height: 16px
+    border-radius: 50%
+    border: 2px solid #79c739
+    background: #79c739
+    margin-top: 10px
+    z-index: 9999
+
+.timeline-content 
+    width: 95%
+    padding: 0 15px
+    color: #666
+
+.timeline-content h3 
+    margin-top: 5px
+    margin-bottom: 5px
+    font-size: 25px
+    font-weight: 500
+
+.timeline-content span 
+    font-size: 15px
+    color: #a4a4a4
+
+.timeline-content p 
+    font-size: 14px
+    line-height: 1.5em
+    word-spacing: 1px
+    color: #888
+@media screen and (max-width: 768px) 
+    .timeline-container:before 
+        left: 8px
+        width: 2px
+   
+    .timeline-block 
+        width: 100%
+        margin-bottom: 30px
+
+    .timeline-block-right 
+        float: none
+
+
+    .timeline-block-left 
+        float: none
+        direction: ltr
+.tl-right
+    color: #fff !important
+    text-align: right
+.tl-left
+    color: #fff !important
+    text-align: left
